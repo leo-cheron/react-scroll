@@ -1,0 +1,69 @@
+{
+  "name": "react-scroll",
+  "version": "0.1.0",
+  "description": "A simple smooth scroll react component",
+  "scripts": {
+    "start": "start-storybook",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "web"
+  ],
+  "author": {
+    "name": "Léo Chéron",
+    "email": "leo@cheron.works",
+    "url": "https://leo.cheron.works"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-viewport": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-loader": "^3.0.0",
+    "postcss-mq-optimize": "^1.1.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-scss": "^2.0.0",
+    "react-hot-loader": "^4.12.21",
+    "sort-css-media-queries": "^1.5.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "detect-it": "^3.0.5",
+    "element-index": "^1.0.1",
+    "linaria": "^1.4.0-beta.1",
+    "math-sign": "^1.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
